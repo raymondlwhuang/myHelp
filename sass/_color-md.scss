@@ -1,0 +1,42 @@
+/* background-color */
+	.bg-000-md {
+		background-color:#000;
+	}
+	.bg-fff-md {
+		background-color:#fff;
+	}
+	.bg-ccc-md {
+		background-color:#ccc;
+	}
+	.bg-red-md {
+		background-color:$redColor;
+	}
+	.bg-green-md {
+		background-color:$greenColor;
+	}
+	.bg-primary-md {
+		background-color: $primaryColor;
+	}
+	.bg-secondly-md {
+		background-color: $secondlyColor;
+	}
+	.bg-footer-md {
+		background-color: $footerColor;
+	}
+	/*foreground color */
+	.color-fff-md {
+		color: #fff;
+	}
+	.color-000-md {
+		color:#000;
+	}
+	.color-red-md {
+		color:$redColor;
+	}
+	
+	.color-primary-md {
+		color: $primaryColor;
+	}
+	.color-secondly-md {
+		color: $secondlyColor;
+	}

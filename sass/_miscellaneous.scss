@@ -1,0 +1,246 @@
+	.wrap-box-banner-mobile {
+		background-color: $mobileBackground;
+	}
+	.nav-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 45px;
+		height: 45px;
+		margin: 0 auto;
+		padding:8px;
+		font-size:2em;
+	}
+	.hamburger {
+		background-image: url(/images/webUI-menu.png);
+		background-size: 100%;
+		height: 100%;
+	}
+	.search {
+		position: absolute;
+		right: 70px;
+		top: 10px;
+		font-size: 1.5em;
+	}
+	.search-inquire {
+		display: none;
+		position: absolute;
+		top: 13px;
+		right: 105px;
+		width: 200px;
+		background-color: #fff;
+	}
+	.my-account {
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.go-ernie {
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 10px;
+		right: 40px;
+	}
+	.logout {
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.open {
+		padding-bottom:10px;
+	}
+	.open span {
+		transform: rotateX(180deg);
+	}
+	.fa-caret-down {
+		display:none;
+	}
+	.email {
+		vertical-align: middle;
+		width: 100%;
+		height: 35px;
+	}
+	.input {
+		background: #fff;
+		padding: 5px;
+		margin-top: 5px;
+		border: solid 1px #ccc;
+		float:right;
+		width: calc(100% - 150px);
+	}	
+	.sub-menu {
+		display:none;
+		width:215px;
+		padding:0 0 15px 10px;
+		background-color: #fff;
+	}
+	.logo {
+		width:125px;
+		height:45px;
+	}
+	.coming-soon {
+		background-image: url(/images/webUI-ComingSoon.png);
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: 70px 70px;
+	}
+	.fans-bill-of-rights-container {
+		background-image: url(/images/Bill-of-right_bg.jpg);
+	}
+	.fans-bill-of-rights-list {
+		list-style-type: upper-roman;
+		list-style-position: outside;
+		margin-left: 25px;
+		padding-right: 10px;
+	}
+	.bill-of-right-bar {
+		background-repeat: no-repeat;
+		background-size: 100%;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	.bill-of-right-bar {
+		background-image: url(/images/Bill-of-right_bar.jpg);
+		flex-basis: 26px;
+	}
+	.flag-canada {
+		float: left;
+		width: calc(25% - 10px);
+		margin-left: 10px;
+		margin-top: 25px;
+	}	
+	.title-the-fans-bill-of-rights {
+		width: 50%;
+		float: none;
+		margin-top: 20px;
+		max-width: 300px;
+	}
+	.flag-usa {
+		float: right;
+		width: calc(25% - 10px);
+		margin-right: 10px;
+		margin-top: 25px;
+	}
+	.list-item {
+		border-top: solid 1px #ccc;
+		overflow: hidden;
+		position:relative;
+	}
+	.item-img {
+		float: left;
+		width: 30px;
+		height: 30px;
+		margin: 10px 10px 10px 10px;
+		background-image: url(/images/webUI-relocation.png);
+		background-repeat:no-repeat;
+		background-size: 100%;
+	}
+	.stadium {
+		background-image: url(/images/webUI-stadium.png);
+	}
+	.ticket {
+		background-image: url(/images/webUI-ticket.png);
+	}
+	.TV {
+		background-image: url(/images/webUI-TV.png);
+	}
+	.player-safety {
+		background-image: url(/images/webUI-PlayerSafety.png);
+	}
+	.hot-issue-sub-menu {
+		border-left: solid 3px #ccc;
+		padding: 5px;
+		display: block;
+		background: #fff;
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.selected-indicator,
+	.hot-issue-sub-menu:hover {
+		border-color: $primaryColor;
+		background: #ccc;
+		color: $primaryColor;
+	}	
+	.item-desc {
+		float: left;
+		width: calc(100% - 135px);
+		font-size: 12px;
+		left: 50px;
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);	
+	}
+	.item-funded {
+		float: right;
+		width: 55px;
+		background-color: $redColor;
+		color: #fff;
+		text-align: center;	
+		font-size: 12px;
+		padding:5px 0;
+	}
+	.finalcial-logo {
+		display: block;
+		width:50%;
+		margin: 20px 25%;
+		padding-bottom: 50px;
+	}
+	.cleveland-fans {
+		width: 100%;
+		background-image: url(/images/cleveland-fans-mobile.jpg);
+		margin-top: 30px;
+		background-repeat: no-repeat;
+		padding-bottom: 75.25%;
+		background-size: 100%;
+	}
+	.circle-img {
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+	.button {
+		border: none;
+		box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+		cursor: pointer;
+		vertical-align: middle;
+		padding: 5px;
+		text-align: center;
+	}	
+	.wrap-box-full,
+	.wrap-box {
+		width: 100%;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+	.wrap-box {
+		max-width: $maxWidth;
+	}
+	.footer {
+		background-color: $footerColor;
+		color: #fff;
+		font-size: 12px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		box-shadow: 0px 500px 0px 500px $footerColor;
+	}
+	.line-height-25 {
+		line-height: 25px;
+	}	
+	.pointer {
+		cursor: pointer;
+	}
+	.overflow-hidden {
+		overflow:hidden;
+	}
+	

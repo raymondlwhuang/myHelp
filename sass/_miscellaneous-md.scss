@@ -1,0 +1,186 @@
+	.wrap-box-banner {
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(/images/banner-title.jpg);
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+	.home {
+		background-image: url(/images/banner-homepage.jpg);
+	}
+	.hot-issue {
+		background-image: url(/images/Banner_HotIssues.jpg);
+	}
+	.sports-policy-institute {
+		background-image: url(/images/Banner_SportsPolicyInstitute.jpg);
+	}
+	.our-history {
+		background-image: url(/images/Banner_OurHistory.jpg);
+	}
+	.bill-of-right {
+		background-image: url(/images/Banner_BillOFRight.jpg);
+	}
+	.cleveland-fans-md {
+		background-image: url(/images/cleveland-fans.jpg);
+	}
+	.menu-item-md{
+		display: block;
+		padding: 20px 0;	
+	}
+	.line-height-primary-md {
+		line-height: 1.5;
+	}
+	.flex-md {
+		display: flex;
+		flex-direction: row;
+	}
+	.flex-320-md {
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 320px;
+	}
+	.bill-of-right-bar-md {
+		flex-basis: 52px;
+	}
+	.item-img-md {
+		width: 50px;
+		height: 50px;
+	}
+	.item-desc-md {
+		font-size:16px;
+		left: 70px;
+	}
+	.item-funded-md {
+		width: 90px;
+		font-size: 16px;
+		padding: 20px 0;
+	}	
+	.item-funded-md span {
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		right: 10px;
+	}
+    .logo-md {
+        width: 255px;
+        height: 90px;
+    }
+    .nav-container-md {
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: initial;
+        padding:0;
+        height:initial;
+    }
+    .nav-container-md:before {
+        content:"";
+    }
+	.search-md {
+		left: 10px;
+		color: #ccc;
+		top: 7px;
+	}
+	.search-inquire-md {
+		display:inline;
+		position:static;
+		font-size: 24px;
+		background-image: url(/images/webUI-menu.png);
+		vertical-align: top;
+		padding: 3px 5px;
+	}
+	.search-button-md {
+		padding: 7px 10px;
+		display: inline-block;
+		vertical-align: top;
+		background-color: $redColor;
+		color: #fff;
+		font-size: 24px;
+		border: none;
+	}
+    .sub-menu-md {
+        display: none;
+        background-color: #fff;
+        position: absolute;
+        top: 100px;
+    }
+	.my-account-md {
+		position:static;
+		width: 35px;
+		height: 35px;
+		margin-left: 5px;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+	.logout-md {
+		position:static;
+		width: 35px;
+		height: 35px;
+		margin-left: 5px;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+	.go-ernie-container {
+		background-color: #fff;
+		color: #000;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-left: 10px;
+		padding-right: 10px;		
+	}
+	.go-ernie-md {
+		display: inline;
+		position:static;
+		width: 35px;
+		height: 35px;
+		margin-left: 5px;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+    .hover-red:hover {
+        background-color: $redColor;
+    }
+    .hover-expend:hover > ul {
+		position: fixed;
+		top:170px;
+        display: block;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+    }
+
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+	.email-md {
+		width: 70px;
+		height: 70px;
+	}
+    .wrap-box-md {
+		width: 100%;
+        max-width:$maxWidth;
+    }    
+	

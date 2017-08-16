@@ -1,0 +1,13 @@
+	.shadow-box {
+		margin: 0 10px;
+		border: solid 1px #ccc;
+		box-shadow: 0 0 5px 2px #ccc;
+		text-align:left;
+		flex-grow: 1;
+		flex-basis: 0;
+		height: initial;
+		padding-bottom: 10px;
+	}
+	.no-shadow {
+		box-shadow:none;
+	}
